@@ -6,6 +6,9 @@ turtle_screen.title("Circle Animation")
 
 circle_ani = turtle.Turtle()
 circle_ani.color("white")
-circle_ani.circle(100)
+
+for element in range(10):
+    circle_ani.circle(100)
+    circle_ani.circle(-100)
 
 turtle.done()
