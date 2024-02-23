@@ -8,7 +8,8 @@ circle_ani = turtle.Turtle()
 circle_ani.color("white")
 
 for element in range(10):
-    circle_ani.circle(100)
-    circle_ani.circle(-100)
+    circle_ani.circle(10 * element)
+    circle_ani.circle(-10 * element)
+    circle_ani.left(element)
 
 turtle.done()
